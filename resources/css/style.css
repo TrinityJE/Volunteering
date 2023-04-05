@@ -1,0 +1,104 @@
+/* General styling */
+
+body {
+    font-family: Calibri;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #CB97EC;
+}
+
+/* Header section */
+
+#header {
+    width: auto;
+    height: 100px;
+    background-image: url(../images/volunteer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #000;
+    margin-bottom: 4%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+#mypg {
+    text-align: center;
+    width: auto;
+    height: 200px;
+}
+
+
+/* Volunteering options */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 99%;
+    height: 430px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 4%;
+}
+
+.div {
+    width: 30%;
+    height: 380px;
+    margin-top: 2%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: underline;
+    font-family: "Delicious Handrawn";
+    letter-spacing: 2px;
+}
+
+img {
+    width: auto;
+    height: 280px;
+    margin-left: 60px;
+}
+
+.div p {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 0.75em;
+}
+
+/* Vx options */
+
+
+.img1 {
+    display: block;
+    width: 45%;
+    height: 600px;
+    margin: 30px auto;
+}
+
+
+/* Vote button */
+
+.button {
+    width: 100px;
+    height: 50px;
+    color: #CB97EC;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #fff;
+    font-family: "Delicious Handrawn";
+}

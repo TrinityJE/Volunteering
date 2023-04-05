@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteering Options</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@500&family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@500&family=Lato:wght@100;300;400&family=Merriweather:ital@0;1&family=Montserrat+Alternates:wght@300;400&family=Raleway:ital,wght@0,400;0,500;1,400&family=Shantell+Sans:ital,wght@0,300;0,400;1,300&family=Space+Mono&family=Special+Elite&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Header section --> 
+    
+<header>
+    <div id="header">
+        <h1>Our Volunteering Activity</h1>
+    </div>
+    <div id="mypg">
+        <p>For our volunteering activity, we have prepared for you 3 choices proposed to us by <a href="https://www.servethecity.brussels/">Serve The City (Brussels)</a> organization.</p>
+        <p>Please review the different options below and <a href="#bottom">vote</a> for the ones that speak to you the most.</p>
+        <p>The activity that collects the most votes will be the winning one!</p>
+        <p>We will then find a common date when the <strong>WHOLE TEAM</strong> will participate in it (kind of a team activity).</p>
+    </div>
+</header>    
+
+    
+<!-- Main section --> 
+    
+<main class="container">
+    <div class='div'>
+        <h2>Lunch For All</h2>
+        <a href="v1.html" target="_blank"><img src="resources/images/Volunteering1.jpg" alt="Lunch for all infographics"></a>
+        <p>(click on the image to see the full picture)</p>
+    </div>
+    <div class='div'>
+        <h2>Cleaning Walk and Migration Talk</h2>
+        <a href="v2.html" target="_blank"><img src="resources/images/Volunteering2.jpg" alt="Cleaning Walk and Migration Talk infographic"></a>
+        <p>(click on the image to see the full picture)</p>
+    </div>
+    <div class='div'>
+        <h2>Parc Parmentier</h2>
+        <a href="v3.html" target="_blank"><img src="resources/images/Volunteering3.jpg" alt="Parc Parmentier infographic"></a>
+        <p>(click on the image to see the full picture)</p>
+    </div>
+</main>
+
+    
+<!-- Vote section -->
+    
+<div>
+    <h3 id="bottom">Please fill in this form to vote on your prefered activity:</h3>
+    <form action="mailto:katerina.mala@the-network.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
+        <label for="lname">Last Name:</label><br>
+        <input for="text" id="lname" name="lname" required><br>
+        <p>Choose your preferred activity</p>
+        <label><input type="radio" id="v1" name="activity" value="Lunch For All" required>Lunch For All</label><br>
+        <label><input type="radio" id="v2" name="activity" value="Cleaning Walk and Migration Talk">Cleaning Walk and Migration Talk</label><br>
+        <label><input type="radio" id="v3" name="activity" value="Parc Parmentier">Parc Parmentier</label><br><br>
+        <input class="button" type="submit" value="Vote"><br>
+    </form>
+</div>   
+    
+<br>
+<br>
+<br>
+    
+
+</body>
+</html>
