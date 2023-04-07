@@ -96,9 +96,18 @@ img {
 .button {
     width: 100px;
     height: 50px;
-    color: #CB97EC;
     font-size: 1.5em;
+    color: #CB97EC;
     text-transform: uppercase;
     background-color: #fff;
     font-family: "Delicious Handrawn";
+}
+
+.button:hover {
+    background-color: #CB97EC;
+    color: #fff;
+}
+
+#message {
+    font-size: 0.6em;
 }
